@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+//Pam Beach
+//Monday, June 26
+//Hey You
+
+public class Program {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		String visitor;
+		
+		Scanner sc = new Scanner(System.in);
+		//This line basically plugs you into the keyboard so you can take input from it.
+		
+        System.out.println("What's your name?");
+        visitor = sc.nextLine();
+        
+        System.out.println("Hey, " + visitor + "!");
+        
+	}
+
+}
